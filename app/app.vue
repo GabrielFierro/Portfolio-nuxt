@@ -1,6 +1,13 @@
+<script setup lang="ts">
+  useHead({
+    htmlAttrs: {
+      'data-theme': 'light'
+    }
+  })
+</script>
+
 <template>
-  <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
-  </div>
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
 </template>
