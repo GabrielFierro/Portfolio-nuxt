@@ -1,5 +1,10 @@
 {
-  "name": "Portfolio-nuxt",
+  "name": "portfolio-nuxt",
+  "description": "FullStack Engineer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielFierro/Portfolio-nuxt"
+  },
   "type": "module",
   "private": true,
   "scripts": {
@@ -10,8 +15,19 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxtjs/i18n": "^10.2.3",
+    "@nuxtjs/seo": "^3.4.0",
+    "@nuxtjs/tailwindcss": "^6.14.0",
     "nuxt": "^4.3.1",
     "vue": "^3.5.28",
     "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "daisyui": "^5.5.19",
+    "eslint": "^10.0.0",
+    "prettier": "^3.8.1",
+    "tailwindcss": "^3.4.19",
+    "typescript": "^5.9.3",
+    "vue-tsc": "^3.2.4"
   }
 }
