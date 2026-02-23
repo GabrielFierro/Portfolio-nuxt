@@ -1,6 +1,8 @@
 {
   "hero": {
-    "title": "Hola, soy Gabriel",
-    "subtitle": "Desarrollador Fullstack"
+    "title": "Hola, soy",
+    "subtitle": "Desarrollador Fullstack",
+    "name": "Gabriel",
+    "fullName": "Gabriel Fierro"
   }
 }
