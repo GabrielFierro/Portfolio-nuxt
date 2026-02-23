@@ -4,5 +4,10 @@
     "subtitle": "Fullstack Developer",
     "name": "Gabriel",
     "fullName": "Gabriel Fierro"
+  },
+  "about": {
+    "title": "About Me",
+    "paragraph1": "Junior FullStack Developer and Computer Science student, with experience working in startups and early-stage products. I started my career as a Frontend Developer and evolved into a FullStack role, building both client-side and server-side applications.",
+    "paragraph2": "Currently involved in a vesting-based product as CPO, leading Frontend and UX/UI while actively contributing to the backend using Node.js and PostgreSQL. I am self-taught, analytical, and focused on delivering real value from day one."
   }
 }
