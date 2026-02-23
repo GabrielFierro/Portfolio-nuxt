@@ -2,7 +2,8 @@
   useHead({
     htmlAttrs: {
       'data-theme': 'light'
-    }
+    },
+    title: 'Gabriel Fierro - Portfolio'
   })
 </script>
 

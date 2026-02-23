@@ -8,7 +8,15 @@ export default {
     './composables/**/*.{js,ts}',
     './plugins/**/*.{js,ts}'
   ],
-  theme: {},
+  theme: {
+    extend: {
+      colors: {
+        primary: '#a200ff',
+        secondary: '#4F8CFF',
+        accent: '#FF4FD8'
+      }
+    }
+  },
   plugins: [require('daisyui')],
   daisyui: {
     themes: [
