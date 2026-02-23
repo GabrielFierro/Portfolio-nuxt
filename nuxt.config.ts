@@ -3,13 +3,12 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
 
-  modules: ['@nuxtjs/i18n', '@nuxtjs/tailwindcss', '@nuxtjs/seo'],
-
+  modules: ['@nuxtjs/i18n', '@nuxtjs/tailwindcss', '@nuxtjs/seo', '@nuxt/icon'],
+  css: ['flag-icons/css/flag-icons.min.css'],
   i18n: {
     strategy: 'prefix_except_default',
     defaultLocale: 'en',
     langDir: 'locales/',
-    lazy: true,
     detectBrowserLanguage: false,
     locales: [
       { code: 'en', iso: 'en-US', file: 'en.json' },
