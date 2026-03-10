@@ -47,7 +47,7 @@
             </a>
 
             <a
-              href="https://github.com/tuusuario"
+              href="https://github.com/GabrielFierro"
               target="_blank"
               class="p-3 rounded-full hover:bg-base-200 transition hover:-translate-y-1"
             >
