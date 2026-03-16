@@ -1,4 +1,5 @@
 <script setup lang="ts">
+  import { Motion } from 'motion-v'
   defineProps<{
     title: string
     description: string
@@ -12,17 +13,21 @@
 </script>
 
 <template>
-  <div
+  <Motion
+    :whileHover="{ y: -6, scale: 1.02 }"
+    :transition="{ type: 'spring', stiffness: 300 }"
     class="p-6 rounded-2xl border border-gray-200 dark:border-gray-800 hover:-translate-y-1 hover:shadow-xl transition duration-300"
   >
     <div class="flex justify-between items-start mb-2">
       <div class="flex items-center gap-2">
-        <span
+        <Motion
           v-if="featured"
+          :animate="{ scale: [1, 1.05, 1] }"
+          :transition="{ repeat: Infinity, duration: 2 }"
           class="text-[10px] px-2 py-1 rounded-full bg-primary/10 text-primary font-medium"
         >
           ⭐ Featured
-        </span>
+        </Motion>
 
         <h3 class="text-xl font-semibold text-primary">
           {{ title }}
@@ -67,5 +72,5 @@
         Live Demo
       </a>
     </div>
-  </div>
+  </Motion>
 </template>

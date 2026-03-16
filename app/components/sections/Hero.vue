@@ -1,6 +1,7 @@
 <script setup lang="ts">
   import { useI18n } from 'vue-i18n'
   import { Mail, MapPin } from 'lucide-vue-next'
+  import { Motion } from 'motion-v'
 
   const { t } = useI18n()
 
@@ -14,23 +15,44 @@
     id="hero"
     class="min-h-screen flex items-center px-6 md:px-16 bg-base-100 dark:bg-backgroundDark"
   >
-    <div class="grid md:grid-cols-2 gap-8 items-center w-full max-w-5xl mx-auto">
+    <Motion
+      :initial="{ opacity: 0, y: 40 }"
+      :animate="{ opacity: 1, y: 0 }"
+      :transition="{ duration: 0.6 }"
+      class="grid md:grid-cols-2 gap-8 items-center w-full max-w-5xl mx-auto"
+    >
       <div>
-        <p
-          class="inline-flex items-center rounded-md bg-primary px-3 py-1 text-md font-semibold text-white"
+        <Motion
+          :initial="{ opacity: 0, y: 20 }"
+          :animate="{ opacity: 1, y: 0 }"
+          :transition="{ delay: 0.1 }"
         >
-          {{ t('hero.title') }}
-        </p>
+          <p
+            class="inline-flex items-center rounded-md bg-primary px-3 py-1 text-md font-semibold text-white"
+          >
+            {{ t('hero.title') }}
+          </p>
+        </Motion>
 
-        <h1
-          class="text-5xl md:text-6xl font-bold my-6 text-gray-900 dark:text-white dark:drop-shadow-[0_0_10px_rgba(168,85,247,0.4)]"
+        <Motion
+          :initial="{ opacity: 0, y: 20 }"
+          :animate="{ opacity: 1, y: 0 }"
+          :transition="{ delay: 0.2 }"
         >
-          {{ t('hero.fullName') }}
-        </h1>
+          <h1 class="text-5xl md:text-6xl font-bold my-6 text-gray-900 dark:text-white">
+            {{ t('hero.fullName') }}
+          </h1>
+        </Motion>
 
-        <h5 class="text-2xl font-semibold text-base-content/80 dark:text-gray-300">
-          {{ t('hero.subtitle') }}
-        </h5>
+        <Motion
+          :initial="{ opacity: 0, y: 20 }"
+          :animate="{ opacity: 1, y: 0 }"
+          :transition="{ delay: 0.3 }"
+        >
+          <h5 class="text-2xl font-semibold text-base-content/80 dark:text-gray-300">
+            {{ t('hero.subtitle') }}
+          </h5>
+        </Motion>
 
         <div class="mt-8 space-y-4">
           <div class="flex items-center gap-3 group">
@@ -75,12 +97,20 @@
       </div>
 
       <div class="flex justify-center md:justify-end">
-        <img
-          src="/profile.webp"
-          alt="Profile picture"
-          class="w-64 h-64 md:w-80 md:h-80 object-cover rounded-2xl shadow-xl ring-2 ring-primary/40 dark:ring-primary/60 dark:shadow-[0_0_40px_rgba(168,85,247,0.35)] transition-all duration-300"
-        />
+        <Motion
+          :initial="{ opacity: 0, scale: 0.9 }"
+          :animate="{ opacity: 1, scale: 1 }"
+          :transition="{ duration: 0.7, delay: 0.3 }"
+          :whileHover="{ scale: 1.05 }"
+          class="flex justify-center md:justify-end"
+        >
+          <img
+            src="/profile.webp"
+            alt="Profile picture"
+            class="w-64 h-64 md:w-80 md:h-80 object-cover rounded-2xl shadow-xl ring-2 ring-primary/40 dark:ring-primary/60 dark:shadow-[0_0_40px_rgba(168,85,247,0.35)]"
+          />
+        </Motion>
       </div>
-    </div>
+    </Motion>
   </section>
 </template>
