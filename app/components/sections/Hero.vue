@@ -49,9 +49,9 @@
           :animate="{ opacity: 1, y: 0 }"
           :transition="{ delay: 0.3 }"
         >
-          <h5 class="text-2xl font-semibold text-base-content/80 dark:text-gray-300">
+          <h2 class="text-2xl font-semibold text-base-content/80 dark:text-gray-300">
             {{ t('hero.subtitle') }}
-          </h5>
+          </h2>
         </Motion>
 
         <div class="mt-8 space-y-4">
@@ -104,9 +104,14 @@
           :whileHover="{ scale: 1.05 }"
           class="flex justify-center md:justify-end"
         >
-          <img
+          <NuxtImg
             src="/profile.webp"
-            alt="Profile picture"
+            alt="Gabriel Fierro profile picture"
+            width="320"
+            height="320"
+            format="webp"
+            quality="80"
+            fetchpriority="high"
             class="w-64 h-64 md:w-80 md:h-80 object-cover rounded-2xl shadow-xl ring-2 ring-primary/40 dark:ring-primary/60 dark:shadow-[0_0_40px_rgba(168,85,247,0.35)]"
           />
         </Motion>
