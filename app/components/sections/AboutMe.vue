@@ -1,6 +1,6 @@
 <script setup lang="ts">
   import { useI18n } from 'vue-i18n'
-  import TechnologiesBadge from './TechnologiesBadge.vue'
+  import TechStack from './TechStack.vue'
 
   const { t } = useI18n()
 </script>
@@ -15,7 +15,7 @@
           <p>{{ t('about.paragraph1') }}</p>
           <p>{{ t('about.paragraph2') }}</p>
         </div>
-        <TechnologiesBadge />
+        <TechStack />
       </div>
     </div>
   </section>

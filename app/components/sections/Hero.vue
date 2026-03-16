@@ -68,7 +68,7 @@
               target="_blank"
               class="px-6 py-3 rounded-lg bg-primary text-white font-semibold hover:scale-105 hover:shadow-lg transition-all"
             >
-              Download CV
+              {{ t('hero.download') }} CV
             </a>
           </div>
         </div>
