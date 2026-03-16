@@ -1,46 +1,29 @@
 <script setup lang="ts">
-  import { ref, computed } from 'vue'
+  import { computed } from 'vue'
   import { useSwitchLocalePath } from '#i18n'
-  const locales = ['en', 'es'] as const
-  type Locale = (typeof locales)[number]
+  import { navigateTo } from '#app'
 
   const { locale } = useI18n()
   const switchLocalePath = useSwitchLocalePath()
-  const isOpen = ref(false)
 
-  const currentFlag = computed(() => {
-    return locale.value === 'en' ? 'us' : 'es'
-  })
+  const isEnglish = computed(() => locale.value === 'en')
 
-  const changeLanguage = (lang: Locale) => {
-    isOpen.value = true
-    return switchLocalePath(lang)
+  const toggleLanguage = async () => {
+    const next = locale.value === 'en' ? 'es' : 'en'
+    await navigateTo(switchLocalePath(next))
   }
 </script>
 
 <template>
-  <div class="relative inline-block">
-    <button class="btn btn-sm flex items-center gap-2" @click="isOpen = !isOpen">
-      <span :class="`fi fi-${currentFlag}`"></span>
-      <span class="uppercase">{{ locale }}</span>
-    </button>
+  <button
+    @click="toggleLanguage"
+    class="flex items-center gap-2 px-3 py-2 rounded-lg bg-gray-100 dark:bg-white/10 hover:bg-gray-200 dark:hover:bg-white/20 transition-all"
+  >
+    <span v-if="isEnglish" class="fi fi-us"></span>
+    <span v-else class="fi fi-es"></span>
 
-    <div v-if="isOpen" class="absolute mt-2 bg-base-100 shadow rounded p-2 flex flex-col gap-2">
-      <NuxtLink
-        class="flex items-center gap-2 hover:bg-base-200 p-1 rounded"
-        :to="changeLanguage('en')"
-      >
-        <span class="fi fi-us"></span>
-        English
-      </NuxtLink>
-
-      <NuxtLink
-        class="flex items-center gap-2 hover:bg-base-200 p-1 rounded"
-        :to="changeLanguage('es')"
-      >
-        <span class="fi fi-es"></span>
-        Español
-      </NuxtLink>
-    </div>
-  </div>
+    <span class="text-sm font-semibold text-gray-800 dark:text-gray-200">
+      {{ isEnglish ? 'EN' : 'ES' }}
+    </span>
+  </button>
 </template>
