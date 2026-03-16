@@ -9,5 +9,16 @@
     "title": "Acerca de mí",
     "paragraph1": "FullStack Developer Jr y estudiante de la Licenciatura en Ciencias de la Computación, con experiencia en startups y productos en etapa temprana. Comencé como Frontend Developer y evolucioné hacia un rol FullStack, trabajando tanto en frontend como en backend.",
     "paragraph2": "Actualmente participo en un producto bajo modalidad vesting como CPO, liderando el área de Frontend y UX/UI, y a su vez, colaborando en el backend con Node.js y PostgreSQL. Me caracterizo por ser autodidacta, analítico y enfocado en generar impacto real desde el primer día."
+  },
+  "experience": {
+    "title": "Experiencia",
+    "meliorarRole": "Product Lead / Frontend Lead",
+    "meliorarDescription": "Definición de estrategia de producto, roadmap, liderazgo UX/UI y dirección técnica del frontend.",
+    "dataAnalystRole": "Data Analyst Jr",
+    "dataAnalystDescription": "Procesamiento de datos en Python (Pandas, NumPy) y generación de reportes y visualizaciones para el equipo de marketing.",
+    "fullstackRole": "Fullstack Developer Jr",
+    "fullstackDescription": "Migración de Vue 2 a Vue 3 con TypeScript, desarrollo de dashboards y APIs con NestJS.",
+    "frontendRole": "Frontend Developer",
+    "frontendDescription": "Desarrollo de landing page responsiva utilizando JavaScript y Tailwind CSS."
   }
 }
