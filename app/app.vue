@@ -1,10 +1,17 @@
 <script setup lang="ts">
   useHead({
     htmlAttrs: {
-      'data-theme': 'light'
+      class: 'dark'
     },
     title: 'Gabriel Fierro - Portfolio'
   })
+
+  if (import.meta.client) {
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
+    if (prefersDark) {
+      document.documentElement.classList.add('dark')
+    }
+  }
 </script>
 
 <template>
