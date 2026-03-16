@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen flex flex-col bg-base-100 text-base-content">
-    <Navbar />
+    <LayoutNavbar />
     <main class="flex-1">
       <slot />
     </main>
