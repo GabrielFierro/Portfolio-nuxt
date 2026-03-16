@@ -50,8 +50,8 @@ export default defineNuxtConfig({
     }
   },
 
-  modules: ['@nuxtjs/i18n', '@nuxtjs/tailwindcss', '@nuxtjs/seo', '@nuxt/icon'],
-  css: ['flag-icons/css/flag-icons.min.css'],
+  modules: ['@nuxtjs/i18n', '@nuxtjs/tailwindcss', '@nuxtjs/seo', '@nuxt/icon', '@nuxt/image'],
+
   i18n: {
     strategy: 'prefix_except_default',
     defaultLocale: 'en',
