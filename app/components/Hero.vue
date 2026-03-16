@@ -37,19 +37,19 @@
             <span>Argentina</span>
           </div>
 
-          <div class="flex items-center gap-6 pt-4">
+          <div class="flex items-center gap-6 pt-4 group">
             <a
               href="https://linkedin.com/in/gabriel-fierro-2020"
               target="_blank"
-              class="p-3 rounded-full hover:bg-base-200 transition hover:-translate-y-1"
+              class="p-3 rounded-full hover:bg-base-200 transition-transform hover:scale-110"
             >
               <Icon name="simple-icons:linkedin" class="w-6 h-6" />
             </a>
 
             <a
-              href="https://github.com/tuusuario"
+              href="https://github.com/GabrielFierro"
               target="_blank"
-              class="p-3 rounded-full hover:bg-base-200 transition hover:-translate-y-1"
+              class="p-3 rounded-full hover:bg-base-200 transition-transform hover:scale-110"
             >
               <Icon name="simple-icons:github" class="w-6 h-6" />
             </a>

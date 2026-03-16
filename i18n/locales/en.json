@@ -4,5 +4,21 @@
     "subtitle": "Fullstack Developer",
     "name": "Gabriel",
     "fullName": "Gabriel Fierro"
+  },
+  "about": {
+    "title": "About Me",
+    "paragraph1": "Junior FullStack Developer and Computer Science student, with experience working in startups and early-stage products. I started my career as a Frontend Developer and evolved into a FullStack role, building both client-side and server-side applications.",
+    "paragraph2": "Currently involved in a vesting-based product as CPO, leading Frontend and UX/UI while actively contributing to the backend using Node.js and PostgreSQL. I am self-taught, analytical, and focused on delivering real value from day one."
+  },
+  "experience": {
+    "title": "Experience",
+    "meliorarRole": "Product Lead / Frontend Lead",
+    "meliorarDescription": "Product strategy, roadmap definition, UX leadership and frontend technical direction.",
+    "dataAnalystRole": "Data Analyst Jr",
+    "dataAnalystDescription": "Data processing in Python (Pandas, NumPy) and delivery of reports and visualizations for the marketing team.",
+    "fullstackRole": "Fullstack Developer Jr",
+    "fullstackDescription": "Migration from Vue 2 to Vue 3 with TypeScript and development of dashboards and NestJS APIs.",
+    "frontendRole": "Frontend Developer",
+    "frontendDescription": "Development of a responsive landing page using JavaScript and Tailwind CSS."
   }
 }
