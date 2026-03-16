@@ -1,24 +1,49 @@
 {
+  "controls": {
+    "switchLanguage": "Cambiar idioma"
+  },
   "hero": {
     "title": "Hola, soy",
     "subtitle": "Desarrollador Fullstack",
     "name": "Gabriel",
-    "fullName": "Gabriel Fierro"
+    "fullName": "Gabriel Fierro",
+    "download": "Descargar"
   },
   "about": {
     "title": "Acerca de mí",
-    "paragraph1": "FullStack Developer Jr y estudiante de la Licenciatura en Ciencias de la Computación, con experiencia en startups y productos en etapa temprana. Comencé como Frontend Developer y evolucioné hacia un rol FullStack, trabajando tanto en frontend como en backend.",
-    "paragraph2": "Actualmente participo en un producto bajo modalidad vesting como CPO, liderando el área de Frontend y UX/UI, y a su vez, colaborando en el backend con Node.js y PostgreSQL. Me caracterizo por ser autodidacta, analítico y enfocado en generar impacto real desde el primer día."
+    "paragraph1": "FullStack Developer Jr y estudiante de la Licenciatura en Ciencias de la Computación, con experiencia en startups y productos en etapa temprana. Comencé como Frontend Developer y evolucioné hacia un rol FullStack.",
+    "paragraph2": "Actualmente participo en un producto bajo modalidad vesting como CPO, liderando el área de Frontend y UX/UI y colaborando en el backend con Node.js y PostgreSQL. Me caracterizo por ser autodidacta, analítico y enfocado en generar impacto desde el primer día."
   },
   "experience": {
     "title": "Experiencia",
-    "meliorarRole": "Product Lead / Frontend Lead",
-    "meliorarDescription": "Definición de estrategia de producto, roadmap, liderazgo UX/UI y dirección técnica del frontend.",
+
+    "meliorarRole": "CPO / Frontend Lead",
+    "meliorarDescription": "Responsable de la estrategia de producto y liderazgo del área Frontend.",
+    "meliorarFullDescription": "Roles principales:\n\n- Estrategia de Producto y Roadmap: Definir qué se construye, cuándo y por qué, gestionando la hoja de ruta del producto.\n\n- Investigación de Usuarios y Mercado: Comprender profundamente las necesidades de los clientes, analizar la competencia y representar la voz del usuario dentro del equipo.\n\n- Diseño y Experiencia de Usuario (UX/UI): Liderar la definición funcional del producto y supervisar el proceso de diseño para garantizar una experiencia de usuario consistente.\n\n- Métricas de Producto: Definir y analizar indicadores clave de rendimiento (KPIs) para tomar decisiones basadas en datos.\n\n- Frontend Lead: Definición de tecnologías del stack frontend, arquitectura de la aplicación y toma de decisiones técnicas alineadas con la evolución del producto.",
+
     "dataAnalystRole": "Data Analyst Jr",
-    "dataAnalystDescription": "Procesamiento de datos en Python (Pandas, NumPy) y generación de reportes y visualizaciones para el equipo de marketing.",
+    "dataAnalystDescription": "Procesamiento y análisis de datos con Python en Google Colab.",
+    "dataAnalystFullDescription": "Como Analista de Datos participé en la recolección, limpieza y transformación de información utilizando Python en Google Colab.\n\n- Lectura y procesamiento de archivos CSV para transformarlos en DataFrames estructurados utilizando pandas.\n\n- Creación de columnas derivadas y cálculos específicos para enriquecer los datasets.\n\n- Exportación de resultados a archivos Excel para que distintos equipos pudieran trabajar con datos organizados.\n\n- Generación de archivos JSON utilizados en pruebas automatizadas con Cypress en el Frontend.\n\n- Preparación y entrega periódica de archivos Excel al equipo de Marketing asegurando información actualizada en cada nueva oleada de datos.\n\n- Desarrollo de reportes con gráficos y análisis de datos acompañados de interpretaciones escritas para apoyar la toma de decisiones del área de Marketing.",
+
     "fullstackRole": "Fullstack Developer Jr",
-    "fullstackDescription": "Migración de Vue 2 a Vue 3 con TypeScript, desarrollo de dashboards y APIs con NestJS.",
+    "fullstackDescription": "Participación en la modernización y desarrollo de una plataforma de dashboards turísticos.",
+    "fullstackFullDescription": "Proyecto V1 – Modernización y Mantenimiento (Vue 2, Quasar, TypeScript, NestJS)\nMigración de la aplicación hecha en Vue 2 a Vue 3 con la incorporación de TypeScript para mejorar la mantenibilidad del código.\n\n- Consumo de APIs REST en el FrontEnd mediante Axios.\n\n- Implementación de testing end-to-end con Cypress validando:\n- Formularios principales\n- Pantallas de visualización de datos\n- Flujos críticos definidos por el equipo\n\nProyecto V2 – Nueva Arquitectura y Construcción de Funcionalidades (Vue 3, Pinia, Firebase, XState, Vitest)\n\n- Desarrollo completo utilizando Vue 3 + Composition API\n- Manejo global de estado con Pinia\n- Navegación con Vue Router\n- Integración de Firebase Authentication\n- Dashboards interactivos con vue-echarts\n- Tests unitarios con Vitest\n\nResponsable del desarrollo de la nueva sección Destination:\n- Creación del componente reutilizable Data Snippet\n- Integración de múltiples fuentes de datos\n- Visualizaciones con ECharts\n\nBackend:\n- Desarrollo de endpoints en NestJS conectados a MySQL\n- Implementación de operaciones CRUD\n\nMetodologías:\n- Git y GitHub utilizando GitFlow\n- Trabajo en ramas feature y Pull Requests\n- Gestión de tareas y sprints en Jira",
+
     "frontendRole": "Frontend Developer",
-    "frontendDescription": "Desarrollo de landing page responsiva utilizando JavaScript y Tailwind CSS."
+    "frontendDescription": "Desarrollo de landing pages responsivas.",
+    "frontendFullDescription": "Responsable del desarrollo general de tres páginas web, incluyendo el diseño completamente responsivo.\n\n- Implementación utilizando HTML, CSS, JavaScript y Tailwind.\n\n- Adaptación del diseño para diferentes tamaños de pantalla garantizando compatibilidad móvil y desktop.\n\n- Trabajo colaborativo utilizando Git y GitHub realizando commits frecuentes con cambios pequeños para facilitar el mantenimiento del proyecto.",
+
+    "showMore": "Ver más",
+    "showLess": "Ver menos"
+  },
+  "contact": {
+    "title": "Trabajemos juntos",
+    "description": "Siempre estoy interesado en nuevas oportunidades, colaboraciones y proyectos interesantes.",
+    "email": "Enviar Email",
+    "downloadCV": "Descargar CV"
+  },
+
+  "footer": {
+    "builtWith": "Desarrollado con Nuxt + Vue + Tailwind"
   }
 }

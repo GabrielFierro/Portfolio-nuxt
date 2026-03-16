@@ -1,24 +1,49 @@
 {
+  "controls": {
+    "switchLanguage": "Switch language"
+  },
   "hero": {
     "title": "Hi, I'm",
     "subtitle": "Fullstack Developer",
     "name": "Gabriel",
-    "fullName": "Gabriel Fierro"
+    "fullName": "Gabriel Fierro",
+    "download": "Download"
   },
   "about": {
-    "title": "About Me",
-    "paragraph1": "Junior FullStack Developer and Computer Science student, with experience working in startups and early-stage products. I started my career as a Frontend Developer and evolved into a FullStack role, building both client-side and server-side applications.",
-    "paragraph2": "Currently involved in a vesting-based product as CPO, leading Frontend and UX/UI while actively contributing to the backend using Node.js and PostgreSQL. I am self-taught, analytical, and focused on delivering real value from day one."
+    "title": "About me",
+    "paragraph1": "Junior FullStack Developer and Computer Science student with experience in startups and early-stage products. I started as a Frontend Developer and evolved into a FullStack role.",
+    "paragraph2": "Currently working on a product under a vesting model as CPO, leading the Frontend and UX/UI area while also contributing to the backend with Node.js and PostgreSQL. I consider myself self-taught, analytical, and focused on creating real impact from day one."
   },
   "experience": {
     "title": "Experience",
-    "meliorarRole": "Product Lead / Frontend Lead",
-    "meliorarDescription": "Product strategy, roadmap definition, UX leadership and frontend technical direction.",
+
+    "meliorarRole": "CPO / Frontend Lead",
+    "meliorarDescription": "Responsible for product strategy and Frontend leadership.",
+    "meliorarFullDescription": "Main responsibilities:\n\n- Product Strategy and Roadmap: Define what to build, when and why by managing the product roadmap.\n\n- User and Market Research: Understand customer needs, analyze competitors and represent the voice of the user within the team.\n\n- UX/UI Design: Lead product functional definition and supervise the design process to ensure a consistent user experience.\n\n- Product Metrics: Define and analyze key performance indicators (KPIs) to support data-driven decision making.\n\n- Frontend Lead: Responsible for defining the frontend technology stack, building the architecture of the application and making technical decisions aligned with the product vision.",
+
     "dataAnalystRole": "Data Analyst Jr",
-    "dataAnalystDescription": "Data processing in Python (Pandas, NumPy) and delivery of reports and visualizations for the marketing team.",
+    "dataAnalystDescription": "Data processing and analysis using Python in Google Colab.",
+    "dataAnalystFullDescription": "As a Data Analyst I participated in data collection, cleaning and transformation using Python in Google Colab.\n\n- Reading and processing CSV files to convert them into structured DataFrames using pandas.\n\n- Creation of derived columns and specific calculations to enrich datasets.\n\n- Exporting results to Excel files so different teams could work with organized data.\n\n- Generation of JSON files used in automated Cypress tests for the frontend.\n\n- Periodic preparation and delivery of Excel reports to the Marketing team ensuring updated information in each data update cycle.\n\n- Development of reports including charts and written data analysis used to support marketing decision making.",
+
     "fullstackRole": "Fullstack Developer Jr",
-    "fullstackDescription": "Migration from Vue 2 to Vue 3 with TypeScript and development of dashboards and NestJS APIs.",
+    "fullstackDescription": "Participated in the modernization and development of a tourism analytics dashboard platform.",
+    "fullstackFullDescription": "Project V1 – Modernization and Maintenance (Vue 2, Quasar, TypeScript, NestJS)\nMigration of the application from Vue 2 to Vue 3 including TypeScript to improve maintainability.\n\n- REST API consumption using Axios.\n\n- End-to-end automated testing with Cypress validating:\n- Main forms\n- Data visualization screens\n- Critical user flows defined by the team\n\nProject V2 – New Architecture and Feature Development (Vue 3, Pinia, Firebase, XState, Vitest)\n\n- Full development using Vue 3 + Composition API\n- Global state management with Pinia\n- Navigation with Vue Router\n- Firebase Authentication integration\n- Interactive dashboards with vue-echarts\n- Unit testing with Vitest\n\nResponsible for developing the new Destination section:\n- Creation of the reusable Data Snippet component\n- Integration of multiple data sources\n- Data visualizations using ECharts\n\nBackend:\n- Development of NestJS endpoints connected to MySQL\n- Implementation of CRUD operations\n\nMethodologies:\n- Git and GitHub using GitFlow\n- Feature branches and Pull Requests\n- Sprint planning and task tracking in Jira",
+
     "frontendRole": "Frontend Developer",
-    "frontendDescription": "Development of a responsive landing page using JavaScript and Tailwind CSS."
+    "frontendDescription": "Development of responsive landing pages.",
+    "frontendFullDescription": "Responsible for the full development of three websites including responsive design.\n\n- Implementation using HTML, CSS, JavaScript and Tailwind.\n\n- Adapting layouts for different screen sizes ensuring both mobile and desktop compatibility.\n\n- Collaborative development using Git and GitHub with frequent commits to maintain an organized workflow.",
+
+    "showMore": "Show more",
+    "showLess": "Show less"
+  },
+  "contact": {
+    "title": "Let's work together",
+    "description": "I'm always interested in new opportunities, collaborations and exciting projects.",
+    "email": "Email me",
+    "downloadCV": "Download CV"
+  },
+
+  "footer": {
+    "builtWith": "Built with Nuxt + Vue + Tailwind"
   }
 }
