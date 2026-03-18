@@ -2,7 +2,7 @@
 
 Personal portfolio built with **Nuxt 3**, showcasing my projects, experience, and tech stack as a **Fullstack Developer**.
 
-🌐 **Live Demo:** https://gabrielfierro.netlify.app/
+🌐 **Live Demo:** https://gabrielfierro.vercel.app/
 
 ---
 
