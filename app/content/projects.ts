@@ -37,15 +37,6 @@ export const projects = [
     demo: 'https://advice-generator-two-gold.vercel.app/'
   },
   {
-    title: 'Sunnyside Landing Page',
-    description:
-      'I built this Landing Page base on a challenge from Frontend Mentor using React. I use it to make reusables components to avoid repeat code.',
-    tech: ['JavaScript', 'API', 'Responsive UI'],
-    type: 'Frontend Project',
-    github: 'https://github.com/GabrielFierro/Sunnyside-agency-landing-page',
-    demo: 'https://resonant-kringle-6016a6.netlify.app/'
-  },
-  {
     title: 'Loopstudios Landing Page',
     description:
       'I built this Landing Page base on a challenge from Frontend Mentor using HTML, CSS, and JavaScript making focus on the images section made with grid.',
